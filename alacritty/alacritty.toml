@@ -1,0 +1,42 @@
+[font]
+size = 13
+
+[font.normal]
+family = "0xProtoNerdFont"
+
+[font.bold]
+style = "Auto"
+
+[font.italic]
+style = "Auto"
+
+[font.bold_italic]
+style = "Auto"
+
+[colors.primary]
+foreground = "#dddddd"
+background = "#050412"
+
+[colors.cursor]
+text = "#050412"
+cursor = "#dddddd"
+
+[colors.selection]
+text = "#050412"
+
+[window]
+dynamic_title = true
+decorations = "full"
+
+[window.padding]
+x = 4
+y = 4
+
+
+[scrolling]
+history = 2000
+multiplier = 1
+
+[env]
+WINIT_UNIX_BACKEND = "auto"  # Cambia entre X11 o Wayland automáticamente
+
